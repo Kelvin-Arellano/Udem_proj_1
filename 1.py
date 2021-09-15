@@ -1,6 +1,4 @@
-def weather_conditions(temperature):
-    if temperature > 7:
-        return "Warm"
-    else:
-        return "Cold"
-user_input = input('Enter Temperature:')
+user_input = input('What is your name?')
+message = 'Hello %s!'%user_input
+message = f'Hello {user_input}'
+print(message)
